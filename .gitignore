@@ -29,8 +29,6 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# Frontend (separate repo)
-frontend/
 
 # Docker volumes
 postgres_data/
