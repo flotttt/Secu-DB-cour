@@ -144,5 +144,3 @@ GRANT conseiller TO app_user;
 CREATE USER analyste_user WITH PASSWORD 'AnalysteSecure2024!' INHERIT LOGIN;
 GRANT analyste TO analyste_user;
 ```
-# Secu-DB-cour
-# Secu-DB-cour
