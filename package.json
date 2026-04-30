@@ -1,0 +1,25 @@
+{
+  "name": "safebank-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts de securite pour le TP Securite BDD",
+  "scripts": {
+    "inject": "tsx scripts/injectionsql.ts",
+    "test:secu": "tsx scripts/test_securite.ts",
+    "audit": "tsx scripts/audit.ts",
+    "backup": "tsx scripts/backup.ts",
+    "seed:audit": "tsx scripts/seed-audit.ts",
+    "migrate:passwords": "tsx scripts/migrate-passwords.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20",
+    "@types/pg": "^8.20.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5"
+  }
+}
